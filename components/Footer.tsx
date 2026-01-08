@@ -12,7 +12,6 @@ const Footer: React.FC = () => {
                 <svg className="w-8 h-8 text-brand-green" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 3L34.7 11.5V28.5L20 37L5.3 28.5V11.5L20 3Z" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M26 13C24.5 11.5 22.5 10.5 20 10.5C14.7533 10.5 10.5 14.7533 10.5 20C10.5 25.2467 14.7533 29.5 20 29.5C22.5 29.5 24.5 28.5 26 27" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/>
-                    <circle cx="20" cy="20" r="2" fill="currentColor"/>
                 </svg>
               <span className="text-2xl font-extrabold tracking-tighter text-white">
                 C<span className="text-brand-green">AI</span>BER
