@@ -151,7 +151,7 @@ const BackgroundEffects = () => {
         style={{
             '--mouse-x': `${mousePosition.x}px`,
             '--mouse-y': `${mousePosition.y}px`
-        } as React.CSSProperties}
+        }} as React.CSSProperties}
       ></div>
       <div 
         className="absolute w-[600px] h-[600px] bg-brand-green/10 rounded-full blur-[100px] mix-blend-screen transition-transform duration-75 ease-out"
