@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAIBER.TECH | Brand Asset</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #080808;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .logo-glow {
+            filter: drop-shadow(0 0 25px rgba(0, 255, 65, 0.4));
+        }
+        .bg-grid {
+            background-size: 50px 50px;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body>
+    <div class="absolute inset-0 bg-grid"></div>
+    <div class="relative z-10 p-8">
+        <svg 
+            class="w-64 h-64 md:w-[400px] md:h-[400px] text-[#00FF41] logo-glow" 
+            viewBox="0 0 40 40" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <!-- Outer Hexagon -->
+            <path 
+                d="M20 3L34.7 11.5V28.5L20 37L5.3 28.5V11.5L20 3Z" 
+                stroke="currentColor" 
+                stroke-width="2" 
+                stroke-linecap="round" 
+                stroke-linejoin="round"
+            />
+            
+            <!-- Symmetrical 'C' Mark -->
+            <path 
+                d="M26 13C24.5 11.5 22.5 10.5 20 10.5C14.7533 10.5 10.5 14.7533 10.5 20C10.5 25.2467 14.7533 29.5 20 29.5C22.5 29.5 24.5 28.5 26 27" 
+                stroke="currentColor" 
+                stroke-width="2" 
+                stroke-linecap="round"
+            />
+        </svg>
+        
+        <div class="mt-12 text-center">
+            <h1 class="text-white font-mono text-xl tracking-[0.5em] uppercase opacity-50">
+                CAIBER<span class="text-[#00FF41]">.TECH</span>
+            </h1>
+        </div>
+    </div>
+</body>
+</html>
